@@ -2,16 +2,23 @@ body {
     font-family: Arial, sans-serif;
     font-size: 16px;
 }
+
 title {
     background-color: #FF69B4;
 }
 
 nav {
     background-color: #000000;
+    display: inline-block;
+    width: 80%;
 }
 
 nav a {
     color: #FFFFFF;
+}
+
+nav img {
+    width: 10%;
 }
 
 main {
@@ -30,10 +37,13 @@ footer p {
 footer a {
     color: #FFFFFF;
 }
+
+/*
 li {
     display: inline-block;
     width: 30%;
 }
+*/
 
 h1 {
     text-align: center;
@@ -43,4 +53,13 @@ h1 {
 
 p {
     line-height: 1.6;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+}
+
+.grid img {
+    width: 100%;
 }
